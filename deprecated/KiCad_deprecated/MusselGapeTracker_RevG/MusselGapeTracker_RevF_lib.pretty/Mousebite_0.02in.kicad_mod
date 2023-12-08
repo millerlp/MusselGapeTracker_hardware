@@ -1,0 +1,14 @@
+(footprint "Mousebite_0.02in" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.025 -0.975 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8fbf1620-f1cc-42b4-95e4-24859950d506)
+  )
+  (fp_text value "Mousebite_0.02in" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 35244846-8164-4593-91eb-8f96f7ef6b88)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.508) (layers F&B.Cu *.Mask) (tstamp f8690d1a-2cb8-4164-a3f8-12e76554f77f))
+)

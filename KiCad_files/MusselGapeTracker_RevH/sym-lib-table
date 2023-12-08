@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MusselGapeTracker_RevE-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MusselGapeTracker_RevE-eagle-import.kicad_sym")(options "")(descr ""))
+)

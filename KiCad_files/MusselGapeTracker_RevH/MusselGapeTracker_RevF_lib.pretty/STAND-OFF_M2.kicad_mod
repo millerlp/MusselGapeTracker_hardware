@@ -1,0 +1,17 @@
+(footprint "STAND-OFF_M2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "M2 stand-off hole<p>\nDrill diam = 2.2mm <br>\nOuter keepout diameter = 3.175mm (0.125\")")
+  (property "Sheetfile" "File: MusselGapeTracker_RevF.kicad_sch")
+  (property "Sheetname" "")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 2bb2cf37-8b67-4956-8bc3-db24b340a255)
+  )
+  (fp_text value "STAND-OFFM2" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp cf50964c-578c-4c75-805a-88bba412d581)
+  )
+  (fp_circle (center 0 0) (end 1.5875 0) (layer "F.CrtYd") (width 0.127) (fill none) (tstamp b1e4f09b-0006-4708-9b43-5519acd69b0c))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 317e2b7e-9f3a-49ca-9f7e-6d5b78da477a))
+)

@@ -1,0 +1,17 @@
+(footprint "STAND-OFF" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "<b>Stand Off</b><p>\nThis is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447\nOuter keepout is 0.127\" radius (0.254\" diameter).")
+  (property "Sheetfile" "File: MusselGapeTracker_RevF.kicad_sch")
+  (property "Sheetname" "")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 2d285cb7-a02d-440f-b52a-cd99a52cbb38)
+  )
+  (fp_text value "STAND-OFF4-40" (at 0 0) (layer "F.Fab") hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 2a3bb473-507f-4fdc-be75-d899de4f35c1)
+  )
+  (fp_circle (center 0 0) (end 3.2258 0) (layer "F.CrtYd") (width 0.127) (fill none) (tstamp 69a9c34e-ba72-4cbd-9746-53f4a92494ee))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask) (tstamp 2733f8d7-a2e0-4999-9680-990f4d25b043))
+)

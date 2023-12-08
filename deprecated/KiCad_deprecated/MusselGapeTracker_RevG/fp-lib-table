@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "MusselGapeTracker_RevE")(type "KiCad")(uri "D:/Dropbox/Hardware_projects/MusselGapeTracker/KiCad_files/MusselGapeTracker_RevE/MusselGapeTracker_RevE.pretty")(options "")(descr ""))
+  (lib (name "MusselGapeTracker")(type "KiCad")(uri "D:/Dropbox/Hardware_projects/KiCad_libraries/MusselGapeTracker.pretty")(options "")(descr ""))
+  (lib (name "MusselGapeTracker_RevF_lib")(type "KiCad")(uri "${KIPRJMOD}/MusselGapeTracker_RevF_lib.pretty")(options "")(descr ""))
+)
