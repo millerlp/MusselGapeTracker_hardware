@@ -1257,7 +1257,7 @@
         )
       )
     )
-    (symbol "MusselGapeTracker_RevE-eagle-import:MCP1700T-3302E{slash}TT" (in_bom yes) (on_board yes)
+    (symbol "MusselGapeTracker_RevE-eagle-import:MCP1700T-3302E/TT" (in_bom yes) (on_board yes)
       (property "Reference" "" (at -12.3444 6.5786 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
@@ -1273,7 +1273,7 @@
       (property "ki_locked" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (symbol "MCP1700T-3302E{slash}TT_1_0"
+      (symbol "MCP1700T-3302E/TT_1_0"
         (polyline
           (pts
             (xy -12.7 -10.16)
@@ -2579,7 +2579,6 @@
       )
     )
   )
-
 
   (junction (at 64.77 383.54) (diameter 0) (color 0 0 0 0)
     (uuid 0a209a75-20ee-43c0-a012-39cdd9427873)
@@ -4230,6 +4229,11 @@
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid 86b4919c-a6e4-4a4d-a1ed-28beea243009)
   )
+  (text "Designed by L.P. Miller, therefore\nuse at your own risk"
+    (at 398.78 344.17 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid 993ec462-7fd7-4852-8a28-ff9946377b5d)
+  )
   (text "ATmega328P microcontroller" (at 21.59 455.93 0)
     (effects (font (size 2.5 2.5)) (justify left bottom))
     (uuid b9cd87a9-e0d9-41c7-b36a-5fbd31287520)
@@ -5119,7 +5123,7 @@
     )
     (pin "1" (uuid 12d80749-1d08-4b20-bcb7-cdc0c045e3c2))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND01") (unit 1)
         )
@@ -5145,7 +5149,7 @@
     (pin "1" (uuid b5bca4a6-a0d2-4af0-86f6-5d42b5a5b4f5))
     (pin "2" (uuid 808f8ec7-5ac2-4f4a-b07f-f8735c9280c8))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C5") (unit 1)
         )
@@ -5170,7 +5174,7 @@
     )
     (pin "1" (uuid e7c0fd2b-6626-44c4-bdfb-d2266cc266ca))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$4") (unit 1)
         )
@@ -5195,7 +5199,7 @@
     )
     (pin "1" (uuid 71768e2a-6c7c-4145-ac41-8aaeb775d587))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "GND0") (unit 1)
         )
@@ -5223,7 +5227,7 @@
     (pin "3" (uuid 3818b7e3-9164-4cc0-a7ba-fc3e697e3124))
     (pin "4" (uuid 6174b507-6b44-41ba-9dc8-6b0982c7e10f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL14") (unit 1)
         )
@@ -5249,7 +5253,7 @@
     (pin "1" (uuid 5b6ac230-087d-430e-8a3a-1d5d3661ca4a))
     (pin "2" (uuid 64bee7a4-71cf-4f8f-9f22-2771dae64694))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R8") (unit 1)
         )
@@ -5275,7 +5279,7 @@
     (pin "1" (uuid 9d744eef-4ab2-4db7-8c0d-ccaff6cf7f74))
     (pin "2" (uuid 2e2a11de-10ad-4fb3-9caa-9ac250c9485b))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C6") (unit 1)
         )
@@ -5301,7 +5305,7 @@
     (pin "A" (uuid 111aff39-eaee-40d9-96cd-2e927b0c6c05))
     (pin "C" (uuid 898e565e-e4cd-43e2-8ed6-b0957aa36cac))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "LED1") (unit 1)
         )
@@ -5327,7 +5331,7 @@
     (pin "1" (uuid f0c1924f-d94f-4a45-8124-0c350f3ffaa1))
     (pin "2" (uuid d64ea03e-fdc8-4a32-8903-5f8bba4824e1))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R15") (unit 1)
         )
@@ -5352,7 +5356,7 @@
     )
     (pin "1" (uuid 7f26492e-98a4-4ad4-a807-fe84dbf57de8))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND010") (unit 1)
         )
@@ -5376,7 +5380,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "STANDOFF4_M2") (unit 1)
         )
@@ -5401,7 +5405,7 @@
     )
     (pin "1" (uuid cf33adfb-35fa-4fb3-bfdb-0f2895f9c1dd))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$11") (unit 1)
         )
@@ -5427,7 +5431,7 @@
     (pin "1" (uuid 0eb290a3-fc8b-4f5f-8ccb-2294d3ff6ba0))
     (pin "2" (uuid b1de9245-3044-45a5-82cf-6af3bc103e90))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R1") (unit 1)
         )
@@ -5455,7 +5459,7 @@
     (pin "3" (uuid e52105cd-dba9-42aa-a22f-29120f832588))
     (pin "4" (uuid 9c585742-9384-4e0a-9045-74cf05f15600))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL12") (unit 1)
         )
@@ -5480,7 +5484,7 @@
     )
     (pin "1" (uuid ee26139b-963f-46c7-9055-c0b80d85442f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND07") (unit 1)
         )
@@ -5505,7 +5509,7 @@
     )
     (pin "1" (uuid 64b11346-3efb-4227-b93f-b926584f9771))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND06") (unit 1)
         )
@@ -5533,7 +5537,7 @@
     (pin "P$3" (uuid 2335797a-1ab3-4413-82ac-df026dfad5d8))
     (pin "P$4" (uuid 62bbfd63-7bcb-4e8c-89f2-d1fda9c93cc4))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "RESET0") (unit 1)
         )
@@ -5561,7 +5565,7 @@
     (pin "S" (uuid 76f1a67a-9a99-4079-9100-84c207bddc8a))
     (pin "S$1" (uuid 50c78ee2-dc6a-4b9b-9b41-4e2f0aafeb6c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "BUTTON2") (unit 1)
         )
@@ -5586,7 +5590,7 @@
     )
     (pin "1" (uuid 4fc6fb18-de56-4c8e-b270-8a248ecf5e93))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$10") (unit 1)
         )
@@ -5612,7 +5616,7 @@
     (pin "1" (uuid 7c965d65-8b33-4596-98d3-b18f9a7a1741))
     (pin "2" (uuid 03ac8d71-df69-43c6-8308-c85080849f4c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R32") (unit 1)
         )
@@ -5638,7 +5642,7 @@
     (pin "1" (uuid ab519c3a-3162-40f2-a4bc-a94a620ef7f7))
     (pin "2" (uuid 25e6229d-a073-4c38-96db-922fe4136c98))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R6") (unit 1)
         )
@@ -5663,7 +5667,7 @@
     )
     (pin "1" (uuid 5200ac96-dbaa-4736-8a3c-0cc639d39b2f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND04") (unit 1)
         )
@@ -5688,7 +5692,7 @@
     )
     (pin "1" (uuid f1a97ac7-a502-4dfa-b330-12fef8e194f8))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY05") (unit 1)
         )
@@ -5714,7 +5718,7 @@
     (pin "+" (uuid 23ed0655-6f8a-4be3-b889-3a947a85d701))
     (pin "-" (uuid a706ca9e-a040-4ea8-85a2-d15ed1b54723))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C1") (unit 1)
         )
@@ -5741,7 +5745,7 @@
     (pin "P$1" (uuid ea61c7ea-e7a0-483d-ba86-6548dc973d39))
     (pin "P$2" (uuid f7f36283-b067-4b98-840d-4c7125e20e8a))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "CR1220_BATTERY0") (unit 1)
         )
@@ -5767,7 +5771,7 @@
     (pin "1" (uuid 9c1e15d3-3927-49ca-b569-64185a763841))
     (pin "2" (uuid 98b2372e-4076-485e-bdb6-36b6903cd1a2))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "GROUND_CON0") (unit 1)
         )
@@ -5793,7 +5797,7 @@
     (pin "1" (uuid 68e78db2-1988-4968-b2dc-b2b980d6a5cc))
     (pin "2" (uuid 2adc8a5f-269a-4619-abfa-10ead9351071))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R4") (unit 1)
         )
@@ -5818,7 +5822,7 @@
     )
     (pin "1" (uuid 6d45387b-b7ed-4b02-9a97-dfa65e829f15))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$8") (unit 1)
         )
@@ -5843,7 +5847,7 @@
     )
     (pin "1" (uuid 954d249c-b81a-45f5-b282-e8009ecb16fc))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND03") (unit 1)
         )
@@ -5869,7 +5873,7 @@
     (pin "1" (uuid df9f2c83-a32c-4120-b02c-df9bca939269))
     (pin "2" (uuid f9d26194-b694-464b-9a04-4624b5d46f92))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R14") (unit 1)
         )
@@ -5894,7 +5898,7 @@
     )
     (pin "1" (uuid d81b176b-41c4-46fe-aae3-5251824a5b53))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND014") (unit 1)
         )
@@ -5920,7 +5924,7 @@
     (pin "1" (uuid ab3e78bb-eff2-4170-8952-fbe9ba8fff59))
     (pin "2" (uuid e27b7112-7e6c-4029-a4d7-e4fa64797844))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R31") (unit 1)
         )
@@ -5948,7 +5952,7 @@
     (pin "3" (uuid 4647f0e4-750b-4a3b-880b-c37c0b184fb8))
     (pin "4" (uuid 3414fc7d-4f11-4cc6-b592-df73686976c1))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL5") (unit 1)
         )
@@ -5976,7 +5980,7 @@
     (pin "3" (uuid 64db9686-28d7-4904-a0db-b15266cb4a7c))
     (pin "4" (uuid bc2ad1e0-0fbd-496d-ab18-e9b379375231))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL3") (unit 1)
         )
@@ -6002,7 +6006,7 @@
     (pin "1" (uuid b44ed37c-c6bc-466d-8b24-09ce18b8a278))
     (pin "2" (uuid 124a60f4-a446-467d-8fc0-d6b1760fad45))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R30") (unit 1)
         )
@@ -6028,7 +6032,7 @@
     (pin "1" (uuid e5229656-532a-42b5-b6ec-10e6aa39e103))
     (pin "2" (uuid e4e2e2b3-1665-428f-a859-f023ddc54f7f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C23") (unit 1)
         )
@@ -6053,7 +6057,7 @@
     )
     (pin "1" (uuid 897f5d4c-56f3-4518-880d-18629be49f77))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY04") (unit 1)
         )
@@ -6081,7 +6085,7 @@
     (pin "3" (uuid 5322a1a2-fe02-4308-bf5a-a347053fd21b))
     (pin "4" (uuid 4256fdd9-62d3-45b4-ab5f-03c571f75851))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL10") (unit 1)
         )
@@ -6107,7 +6111,7 @@
     (pin "+" (uuid f46dec3a-2de4-4b12-b803-7022f9bd8edf))
     (pin "-" (uuid fe6cc380-1b79-474c-9c53-39b9d4189d76))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C2") (unit 1)
         )
@@ -6132,7 +6136,7 @@
     )
     (pin "1" (uuid 26c5a30f-95ac-4362-ba97-22ca076535bd))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$6") (unit 1)
         )
@@ -6157,7 +6161,7 @@
     )
     (pin "1" (uuid 1eb0be8d-6364-447a-b7dd-5029afa33399))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY08") (unit 1)
         )
@@ -6183,7 +6187,7 @@
     (pin "1" (uuid fb385c84-6d54-4fb2-893c-f2876af6b846))
     (pin "2" (uuid 934ae446-6ad7-4c0c-b537-a9e98553fe4d))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R5") (unit 1)
         )
@@ -6208,7 +6212,7 @@
     )
     (pin "1" (uuid b90b1ddd-91b5-4571-be4b-ae558cc2c3be))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$9") (unit 1)
         )
@@ -6248,7 +6252,7 @@
     (pin "8" (uuid 28d9aa6f-02a4-43da-9180-405673d1b93e))
     (pin "9" (uuid a5f7ba38-f58a-4d0c-94f5-8cafd2143102))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "SHIFT_0") (unit 1)
         )
@@ -6272,7 +6276,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "STANDOFF3") (unit 1)
         )
@@ -6297,7 +6301,7 @@
     )
     (pin "1" (uuid 0966bddf-c667-4f6b-b0d1-9cbf52566b8c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY07") (unit 1)
         )
@@ -6322,7 +6326,7 @@
     )
     (pin "1" (uuid e2c35aff-6046-4349-a703-f763a0222624))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "PB7") (unit 1)
         )
@@ -6350,7 +6354,7 @@
     (pin "3" (uuid 8f6d9328-31fa-4e03-91aa-d951e0c439c4))
     (pin "4" (uuid 39817bf4-ed16-4a33-907e-efb5950d508f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL1") (unit 1)
         )
@@ -6376,7 +6380,7 @@
     (pin "1" (uuid 83265bd6-2bb2-4acd-946d-3c747caa64ed))
     (pin "2" (uuid 17f3dbf1-26ea-4d9e-ac0f-30dccccf6f88))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C7") (unit 1)
         )
@@ -6401,7 +6405,7 @@
     )
     (pin "1" (uuid 09a6b7c8-a796-4de7-9c9b-8b5d595cabd9))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$3") (unit 1)
         )
@@ -6426,7 +6430,7 @@
     )
     (pin "1" (uuid 7f08493c-0dca-4eb7-817f-eb4a8aac55d4))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND09") (unit 1)
         )
@@ -6454,7 +6458,7 @@
     (pin "3" (uuid 15f2c3d6-02b2-48a3-8aca-293830671dc1))
     (pin "4" (uuid 38c69bf5-e042-4576-bf4d-ecef4c248eec))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL0") (unit 1)
         )
@@ -6479,7 +6483,7 @@
     )
     (pin "1" (uuid 2d7cc374-b437-4ed8-967a-59a49e7243a6))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND017") (unit 1)
         )
@@ -6505,7 +6509,7 @@
     (pin "1" (uuid 1a901948-d66d-4cef-af92-16950686b6f9))
     (pin "2" (uuid fe0b81b5-68f2-4aa7-9f11-bb2d7f6a5f3f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R3") (unit 1)
         )
@@ -6545,7 +6549,7 @@
     (pin "8" (uuid ad15b19e-544f-4af7-b465-933c669ae6f7))
     (pin "9" (uuid 770a5776-a339-4dd9-a84e-f87ea1638aa7))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "SHIFT_1") (unit 1)
         )
@@ -6575,7 +6579,7 @@
     (pin "5" (uuid 53ab4c52-fc1e-4ed0-8964-fcceecd899a6))
     (pin "6" (uuid bcac00ae-24be-4a61-8ee3-0a8f5e1071eb))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "JP1") (unit 1)
         )
@@ -6631,7 +6635,7 @@
     (pin "8" (uuid 877f0a82-fcf8-416d-a832-a6b92234aa24))
     (pin "9" (uuid 82a38ae9-391f-4317-aac0-d80334efcf82))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U1") (unit 1)
         )
@@ -6656,7 +6660,7 @@
     )
     (pin "1" (uuid 4958dcb7-4bdc-452f-943f-55282df07c70))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND016") (unit 1)
         )
@@ -6684,7 +6688,7 @@
     (pin "3" (uuid cda82573-b9f6-4021-918b-47599dcb94a8))
     (pin "4" (uuid 33da3021-7f2f-4dab-b9bd-0a43e476e048))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL7") (unit 1)
         )
@@ -6712,7 +6716,7 @@
     (pin "3" (uuid a794fcf1-26d6-4d11-8bdc-10f9e03f0ca7))
     (pin "4" (uuid 0176d531-e851-404b-b4d0-45bed5b2420c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL8") (unit 1)
         )
@@ -6738,7 +6742,7 @@
     (pin "1" (uuid 90d01a03-647a-4815-a2c4-68b7ce527d68))
     (pin "2" (uuid 38e8299c-2347-4766-8a41-cbe3df1f86c6))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "MOLEX_KK0") (unit 2)
         )
@@ -6764,7 +6768,7 @@
     (pin "1" (uuid 42dc5367-406c-440f-b52e-f284b30e43f3))
     (pin "2" (uuid f17bf363-dda7-4f46-8c31-11ae147c61e4))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C9") (unit 1)
         )
@@ -6804,7 +6808,7 @@
     (pin "8" (uuid 3398e6fc-dda8-4f20-b9bd-5039c6dbb833))
     (pin "9" (uuid 38bd01d0-a623-43de-b142-b243ff530e2f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U2") (unit 1)
         )
@@ -6828,7 +6832,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "STANDOFF5_M2") (unit 1)
         )
@@ -6854,7 +6858,7 @@
     (pin "P$1" (uuid 90d88563-cedc-4a8a-b0e1-c4a7862f181b))
     (pin "P$2" (uuid c4e94aad-02aa-403d-93cd-03c8a507a88b))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "INDUCTOR0") (unit 1)
         )
@@ -6880,7 +6884,7 @@
     (pin "1" (uuid 8bae406a-4e68-495a-b53c-e15da59f84ae))
     (pin "2" (uuid 3ae6455b-9684-4c3b-9446-6caee96b61ea))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C10") (unit 1)
         )
@@ -6908,7 +6912,7 @@
     (pin "S" (uuid 1370ab88-7803-4dc5-b3d6-8570d572b28a))
     (pin "S$1" (uuid 7b33f6ea-9c3b-4b07-a920-10153db6aca0))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "BUTTON1") (unit 1)
         )
@@ -6933,7 +6937,7 @@
     )
     (pin "1" (uuid d00e848d-ab5d-4098-b4f2-3c42ec92b21d))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY02") (unit 1)
         )
@@ -6958,7 +6962,7 @@
     )
     (pin "1" (uuid d583685a-286e-4559-a893-09621a120b6c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND0101") (unit 1)
         )
@@ -6986,7 +6990,7 @@
     (pin "3" (uuid 194ba126-f153-469a-af00-362191034800))
     (pin "4" (uuid 05bdefc4-7318-47ec-addc-33ec2c464277))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL13") (unit 1)
         )
@@ -7012,7 +7016,7 @@
     (pin "1" (uuid 2c8d3585-e49a-4ffa-9196-2433ebe397cf))
     (pin "2" (uuid b20e0aed-ae0a-4e08-a5d3-c9d8cce8ffd5))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R29") (unit 1)
         )
@@ -7038,7 +7042,7 @@
     (pin "1" (uuid f38c3809-945b-4dd3-8f49-0597b1b9cd0e))
     (pin "2" (uuid 620d6ea4-0c50-4c23-8f00-fc1a0d6d0894))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C3") (unit 1)
         )
@@ -7063,7 +7067,7 @@
     )
     (pin "1" (uuid ff851f26-2b06-46bc-8d65-b8e18bb4d162))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY011") (unit 1)
         )
@@ -7088,7 +7092,7 @@
     )
     (pin "1" (uuid 59c98053-15e1-4b11-bb0d-a65450af8ad5))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$17") (unit 1)
         )
@@ -7114,7 +7118,7 @@
     (pin "1" (uuid 2683303d-72f7-4c68-ad33-f609353b2537))
     (pin "2" (uuid e892debb-1969-4e2b-80b5-ffa14da7f2ce))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C8") (unit 1)
         )
@@ -7139,7 +7143,7 @@
     )
     (pin "1" (uuid 731f1c71-56d7-47d2-8ff1-e6f9a4fb3722))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND02") (unit 1)
         )
@@ -7164,7 +7168,7 @@
     )
     (pin "1" (uuid 49f2aabc-1a85-400d-a9e0-5809861930c1))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$7") (unit 1)
         )
@@ -7189,7 +7193,7 @@
     )
     (pin "1" (uuid 51dcb525-f844-4883-baaf-623f126b7232))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY010") (unit 1)
         )
@@ -7216,7 +7220,7 @@
     (pin "2" (uuid 0188ae07-d649-4dda-89a2-1a80181b96d2))
     (pin "3" (uuid f664b1d0-9d87-4bdf-aabd-39dd82722fb6))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "BJT0") (unit 1)
         )
@@ -7244,7 +7248,7 @@
     (pin "3" (uuid efe6e9e6-cd9d-4b76-80c8-970da091e15b))
     (pin "4" (uuid b7d7fa04-2386-4664-afc3-8efe8c8fbe6f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL4") (unit 1)
         )
@@ -7270,7 +7274,7 @@
     (pin "1" (uuid fcbbbd1b-d497-4855-b5d5-cdb657dc2dce))
     (pin "2" (uuid 322055b3-db28-4fee-ae13-fc5da7762e18))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R7") (unit 1)
         )
@@ -7295,7 +7299,7 @@
     )
     (pin "1" (uuid 60e85869-3e10-4e6a-88c1-3406322e1d43))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY03") (unit 1)
         )
@@ -7323,7 +7327,7 @@
     (pin "3" (uuid c8c90b18-9690-4fe3-8138-28a047ae0d75))
     (pin "4" (uuid 7a38c8c1-aefa-44d1-b6bd-848d2b6bf612))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL11") (unit 1)
         )
@@ -7348,7 +7352,7 @@
     )
     (pin "1" (uuid d4f2589c-5b49-4226-9363-9ce9e2ed5524))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY09") (unit 1)
         )
@@ -7373,7 +7377,7 @@
     )
     (pin "1" (uuid 199c94c3-08e0-41e3-8196-d0989cfc566e))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND015") (unit 1)
         )
@@ -7399,7 +7403,7 @@
     (pin "1" (uuid 870f0ec6-2fdd-4bd4-a08b-05920ac02e18))
     (pin "2" (uuid 40806afa-348d-4fab-a453-216236484128))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "C4") (unit 1)
         )
@@ -7424,7 +7428,7 @@
     )
     (pin "1" (uuid 103da9eb-b4d3-4c33-b812-b418a9abbcfd))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND013") (unit 1)
         )
@@ -7472,7 +7476,7 @@
     (pin "8" (uuid 2283c4a7-5bb0-4842-ae78-722b029ba6ec))
     (pin "9" (uuid 878dccb1-0853-4a1a-a39d-bee9a3cf29cd))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$2") (unit 1)
         )
@@ -7498,7 +7502,7 @@
     (pin "A" (uuid 875639df-991e-4689-8a20-2b3587ff37e0))
     (pin "C" (uuid 8c31e5bf-7e9a-4a68-869a-1a1f8d5c073d))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "LED2") (unit 1)
         )
@@ -7506,7 +7510,7 @@
     )
   )
 
-  (symbol (lib_id "MusselGapeTracker_RevE-eagle-import:MCP1700T-3302E{slash}TT") (at 187.96 427.99 0) (unit 1)
+  (symbol (lib_id "MusselGapeTracker_RevE-eagle-import:MCP1700T-3302E/TT") (at 187.96 427.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4361039-0160-4224-ad8a-ba98f1e18f34)
     (property "Reference" "MCP1700T-3302" (at 175.6156 421.4114 0)
@@ -7525,7 +7529,7 @@
     (pin "2" (uuid 51b31d53-58ea-446a-a712-8930b0fd70ae))
     (pin "3" (uuid caea6b93-5ad0-44d5-86ab-3c5f187d8f3d))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "MCP1700T-3302") (unit 1)
         )
@@ -7553,7 +7557,7 @@
     (pin "3" (uuid dab42673-5f4a-4d03-bee7-4163456656e0))
     (pin "4" (uuid f3b6dc57-a365-4259-b265-8f1bf8c3b04d))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL6") (unit 1)
         )
@@ -7579,7 +7583,7 @@
     (pin "1" (uuid 36401fc4-ac03-487c-bf09-244bfc2550cb))
     (pin "2" (uuid 91ede289-2b6e-4275-8b00-652e5d7a5f75))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R2") (unit 1)
         )
@@ -7607,7 +7611,7 @@
     (pin "3" (uuid 240caa93-814d-4ee1-b591-7e45a6cc7f41))
     (pin "4" (uuid 0b7d685e-f20f-4406-afed-1bbd3002b012))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL15") (unit 1)
         )
@@ -7632,7 +7636,7 @@
     )
     (pin "1" (uuid 059b7a36-b881-40a8-a4c6-c3ad8182e845))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND05") (unit 1)
         )
@@ -7656,7 +7660,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "STANDOFF1") (unit 1)
         )
@@ -7684,7 +7688,7 @@
     (pin "3" (uuid 7ec15a56-8d32-4a7c-a33e-f61df383a356))
     (pin "4" (uuid c3fe62d8-a89a-4d25-8696-f72b7571e297))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL2") (unit 1)
         )
@@ -7710,7 +7714,7 @@
     (pin "1" (uuid 1ac9e650-7c28-4c19-8e37-2f5909e0ecc9))
     (pin "2" (uuid e2619847-8eca-443f-ad92-35e16e9759d4))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R33") (unit 1)
         )
@@ -7742,7 +7746,7 @@
     (pin "7" (uuid 1037f193-4c97-4f46-829c-64f3dc9f2b35))
     (pin "8" (uuid a9007d39-ae19-46ae-a990-c863f9b58ee1))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U3") (unit 1)
         )
@@ -7767,7 +7771,7 @@
     )
     (pin "1" (uuid 94420478-3145-4f42-a2a1-70d85c1af5ad))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND018") (unit 1)
         )
@@ -7792,7 +7796,7 @@
     )
     (pin "1" (uuid b05005f0-e5e4-4712-b324-c7a3292ab16a))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND011") (unit 1)
         )
@@ -7820,7 +7824,7 @@
     (pin "3" (uuid c0704e1d-e2b8-4221-ac74-e01945ae99fe))
     (pin "4" (uuid 1934829d-65fa-40ab-85b4-43aaf9f02f40))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "OLED0") (unit 1)
         )
@@ -7845,7 +7849,7 @@
     )
     (pin "1" (uuid 187a1270-8e1f-46b9-8e85-b5acb1eb763a))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY01") (unit 1)
         )
@@ -7883,7 +7887,7 @@
     (pin "SCK5" (uuid a6cb2663-f467-4610-97c5-8572a97c8e1f))
     (pin "VDD4" (uuid 364a6bb6-367d-41c4-bf37-3ba94b28cde4))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "U$1") (unit 1)
         )
@@ -7908,7 +7912,7 @@
     )
     (pin "1" (uuid 943b94d7-46ce-40e6-a4ed-8993a48d119b))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#SUPPLY06") (unit 1)
         )
@@ -7933,7 +7937,7 @@
     )
     (pin "1" (uuid 1c0f1d42-c81e-4091-a344-8706397bc08c))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND012") (unit 1)
         )
@@ -7963,7 +7967,7 @@
     (pin "5" (uuid 80e3bc71-a308-410e-a6d0-7b9ce98e50be))
     (pin "6" (uuid 5e0c9b0e-d9ec-4e03-88e4-7a80e703276e))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "J1") (unit 1)
         )
@@ -7989,7 +7993,7 @@
     (pin "1" (uuid df5e947e-f0b1-475d-8a3e-a044b47ef819))
     (pin "2" (uuid 61c970a8-da16-4e7c-9dd4-de83a9d1bb93))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "MOLEX_KK0") (unit 1)
         )
@@ -8017,7 +8021,7 @@
     (pin "3" (uuid 5ad9ee07-629b-4ce9-82c9-9a06b20588ff))
     (pin "4" (uuid 8a275cc7-8bf2-49c5-87fa-1065b74ac0b7))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "HALL9") (unit 1)
         )
@@ -8044,7 +8048,7 @@
     (pin "2" (uuid cb27f409-d3a5-4c41-9d11-aa0ab93185f3))
     (pin "3" (uuid 999ba172-6c61-48f3-9143-4fec001dfc69))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "P-FET0") (unit 1)
         )
@@ -8070,7 +8074,7 @@
     (pin "1" (uuid c5d9e9b0-8151-46c6-b40a-c12afe9a0d0e))
     (pin "2" (uuid 1f61d3c8-fa86-43f7-9626-e8b93c071375))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R28") (unit 1)
         )
@@ -8095,7 +8099,7 @@
     )
     (pin "1" (uuid 529ec68a-4937-485e-af11-b07259d05ec7))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "#GND08") (unit 1)
         )
@@ -8119,7 +8123,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "STANDOFF2") (unit 1)
         )
@@ -8146,7 +8150,7 @@
     (pin "P$2" (uuid 67165057-1b1c-46f1-9ef9-d2e4853cd292))
     (pin "P$3" (uuid bfc48a5a-37a8-42f3-a9d9-5888efefb3fa))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "UNK2,1MM_JACK0") (unit 1)
         )
@@ -8172,7 +8176,7 @@
     (pin "1" (uuid 2f397b82-b49d-4b7a-ae9f-ce40a4c8f06c))
     (pin "2" (uuid 3d2a1970-e858-4688-9f5b-156fe8510a9f))
     (instances
-      (project "MusselGapeTracker_RevG"
+      (project "MusselGapeTracker_RevH"
         (path "/16a6d501-f88c-4776-88ce-bd33e196cf14"
           (reference "R9") (unit 1)
         )
